@@ -20,7 +20,7 @@ else
     echo "开始拉取代码"
     git pull origin main
     echo "拉取代码结束"
-    cd /app/simpleProject/testcicd/project1/project1
+    cd /app/simpleProject/testcicd/project1
     yarn
     yarn build
     cp -r /app/simpleProject/testcicd/project1/dist/* -t /usr/local/nginx/html
